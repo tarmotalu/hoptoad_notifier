@@ -19,7 +19,7 @@ require 'hoptoad_notifier/railtie' if defined?(Rails::Railtie)
 # Gem for applications to automatically post errors to the Hoptoad of their choice.
 module HoptoadNotifier
 
-  API_VERSION = "2.0"
+  API_VERSION = "2.1"
   LOG_PREFIX = "** [Hoptoad] "
 
   HEADERS = {
